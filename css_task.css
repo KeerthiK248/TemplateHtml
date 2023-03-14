@@ -1,0 +1,512 @@
+*{
+margin: 0%;
+/*border: 1px solid red;*/
+font-family: sans-serif;
+}
+
+.navbar img{
+	margin-left: 5%;
+	vertical-align: middle;
+}
+.navbar a{
+	text-decoration: none;
+	color: black;
+	margin-left: 2%;
+}
+#company-name{
+	font-size: 2rem;
+}
+#company-name span{
+color:orange;
+}
+#company-name+a{
+	color:orange;
+	margin-left: 9%;
+}
+.sec2{
+	background-color: rgba(239,239, 239, 1);
+	display:flex;
+	padding: 8% 13%;
+}
+.shapes{
+	width: 50%;
+	position: relative;
+	/*background-color: grey;
+	padding: 5% 0%;*/
+
+}
+.rectangle{
+	background-color:rgba(0, 0, 0, 1) ;
+	width:100%;
+	
+}
+.small-circle{
+	position: absolute;
+	top:20% ;
+	left:47% ;
+	width:14%;
+	padding:4% 0% ;
+	border-radius:50% ;
+	text-align:center ;
+	background-color: black;
+	color:rgba(225, 225, 225, 0.8) ;
+}
+.large-circle{
+	position: absolute;
+	top:40% ;
+	left:32% ;
+	width:16%;
+	padding:4% 0% ;
+	border-radius:50% ;
+	text-align:center ;
+	background-color:orange;
+	color:white ;
+}
+.para
+{
+	font-size:0.8em;
+	font-weight:lighter;
+}
+.get{
+	background-color: orange;
+	color:white ;
+	text-align: center;
+	cursor: pointer;
+	border-radius:25px ;
+	width:fit-content;
+	border:none;
+    margin-top:8% ;
+	padding: 3% 5%;
+}
+.read_more
+{
+
+	
+	text-align: center;
+	cursor: pointer;
+	border-radius:25px ;
+	width:fit-content;
+	border:1px solid black;
+    margin-top:8% ;
+	padding: 3% 5%;
+	margin-right :5%;
+}
+.footer
+{
+	background-color:rgba(1,1,1,0.8);
+	color:white;
+	
+}
+.footer input
+{
+	width:23%;
+	background-color:rgba(1,1,1,0.1);
+	border: 1px solid rgba(239,239, 239, 0.2);
+	padding:16px;
+	margin-left:18%;
+	margin-top:2%;
+	margin-bottom:2%;
+
+}
+.footer button
+{	border: 1px solid rgba(239,239, 239, 0.3);
+	background-color:rgba(239,239, 239, 0.2);
+	color:white;
+	padding:16px;
+}
+
+/*PAGE2*/
+
+.pg2{
+	background-color:rgba(239,239, 239, 0.8);
+	
+}
+
+.pg2_sec
+{
+	margin-left:15%;
+	margin-right:15%;
+	
+	
+}
+
+/*PAGE2*/
+.pg2{
+	background-color:rgba(239,239, 239, 0.8);
+	
+}
+
+.pg2_sec
+{
+	margin-left:20%;
+	margin-right:15%;
+}
+.col-flex
+{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+}
+.row-flex
+{
+	display:flex;
+	flex-direction: row;
+	align: center;
+}
+li
+{color:grey;
+	font-size:0.8em;
+
+}
+.card
+{
+	background-color: white;
+	width:fit-content;
+	padding:3%;
+	margin:5%;
+}
+.circle2{
+width:20%;
+height:8px;
+	padding:10% 0% ;
+	border-radius:50% ;
+	border:1px solid grey;
+	text-align:center ;
+	background-color: grey;
+	color:rgba(225, 225, 225, 0.8) ;
+	align:center;
+	margin-right:1%;
+}
+ul li:before {
+  content: '✓ ';
+  color:orange;
+
+}
+.pg2 button
+{background-color:orange;
+	color:white;
+	border:none;
+	padding:2%;
+	width:40%;
+
+
+}
+
+/*PAGE3*/
+.pg3
+{
+	margin-left:15%;
+	margin-right:15%;
+	color:black;
+	background-color: white;
+	
+	
+}
+.cols_flex p{border-bottom:1px solid grey;
+	padding:5%;
+	font-size:0.8em;
+		color:grey;
+
+}
+.rows_flex
+{
+			display:flex;
+			flex-direction:row;
+			color:white;
+			justify-content:space-evenly;
+			align-items:center;
+			margin-left:15%;
+			margin-right:15%;
+
+
+}
+.cols_flex{
+			background-color: black;
+			display:flex;
+			flex-direction:column;
+			color:white;
+			/*justify-content:space-evenly;*/
+			align-items:center;
+		width:27%;
+		margin-left:0%;
+		border:1px solid grey;
+
+			
+		}
+.circle{
+width:40%;
+height:44px;
+	padding:10% 0% ;
+	border-radius:50% ;
+	border:1px solid grey;
+	text-align:center ;
+	background-color: black;
+	color:rgba(225, 225, 225, 0.8) ;
+	align:center;
+}
+
+/*PAGE4*/
+.row_flex_4
+{
+display:flex;
+flex-direction:row;
+}
+.col_flex_4
+{
+display:flex;
+flex-direction:column;
+/*width:50%;*/
+
+}
+.div2_4
+{
+	margin-left:10%;
+	margin-top:10%;
+	color:white;
+
+}
+.umbrella
+{
+	dispaly:flex;
+	line-height:1;
+	margin:4% 0%;
+	height:50px;
+	
+	color:black;
+}
+.umbrella i 
+{
+	font-size:1.9rem;
+	border:1px solid grey;
+	text-align:center;
+	border-radius:100%;
+	width:100%;
+	padding:8%;
+	margin-right:4%;
+	background-color:white;
+	width:10%;
+	border-color:orange;
+}
+orange i{
+	color:orange;
+	border-color:orange;
+}
+
+.orange span:first-of-type
+{
+	color:orange;
+	font-size:1.1rem;
+
+}
+.umbrella span
+{
+	font-size:0.8rem;
+	color:grey;
+
+}
+
+/*PAGE5*/
+.pg5
+{
+	margin-left:20%;
+	margin-top:10%;
+	font-size:0.8em;
+	color:grey;
+
+}
+.s2{
+	background-color:grey;
+	width:20%;
+	position:relative;
+	
+}
+.s2_star
+{
+	position:absolute;
+	background-color:orange;
+	color:white;
+	left:50%;
+	bottom:70%;
+}
+.col_flex_5
+{
+display:flex;
+flex-direction:column;
+margin-left:5%;
+width:20%;
+
+}
+.pg5 span,h1{
+	color:black;
+	font-size:1.3em;
+}
+
+/*PG6*/
+.pg6
+{ margin-top:10%;
+	background-color:orange;
+	color:white;
+	font-weight:0.1;
+	
+
+	text-align:center;
+}
+.s1_6
+{
+margin-top:10%;
+
+font-weight:1px;
+/*background-color:red;*/
+
+}
+.pg6 h1
+{
+	color:white;
+}
+
+/*PG7*/
+.l{
+	margin-left:15%;
+	margin-right:15%;
+	background-color: white;
+	margin-bottom:10%;
+}
+.l i{
+	margin-left:35%;
+
+}
+
+.l h1
+{
+	color:black;
+	text-align:center;
+	text-weight:thin;
+}
+.l span{
+	color:grey;
+	font-size:0.8em;
+	text-align:center;
+}
+
+.l strong{
+	background-color:red ;
+	width:100%;
+	height:2em;
+	margin-right:5%;
+	height:4em;
+}
+
+/*PG8*/
+.pg8
+{
+	background-color: black;
+	color:white;
+
+}
+.pg8_sec
+{
+	margin-left:20%;
+}
+
+
+hr
+{
+	width:10%;
+}
+.pg8 a{
+	text-decoration:none ;
+	color:grey;
+	font-size:0.8em;
+	line-height:2em;
+
+}
+.pg8 button
+{background-color:orange;
+	color:white;
+width:20%;}
+.pg8 p
+{
+	color:grey;
+	font-size:0.8em;
+}
+
+/*PG9 START*/
+
+.s_9
+{
+	margin-top:10%;
+	margin-left:10%;
+}
+.s_9 span{
+	background-color:grey ;
+	width:20%;
+	height:2em;
+	margin-right:5%;
+	
+
+}
+.s_9 button
+{
+	background-color:lightgreen;
+	color:white;
+	border:none;
+	width:40%;
+	height:3.5em;
+	margin-left:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+			
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media(min-width:1366px){
+	#company-name+a{
+		margin-left: 12%;
+	}
+	.small-circle{
+		width:10%;
+		padding:2% 0% ;
+	}
+	.large-circle{
+		font-size: 1rem;
+	}
+	
+
+
+}
+@media(max-width:1000px){
+ .navbar a{
+ 	font-size: 0.8em;
+ }
+ #company-name{
+ 	font-size: 1.5rem;
+ }.small-circle{
+ 	font-size:0.5rem;
+ }
+ .large-circle{
+ 	font-size: 0.4rem;
+ }
+}
+
+*/
